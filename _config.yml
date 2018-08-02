@@ -1,0 +1,50 @@
+title: Bookiza Abelone | Documentation
+email: contact@bubblin.io
+description: >- # this means to ignore newlines until "baseurl:"
+  Bookiza Abelone — A book reification tool for web. 
+baseurl: "/bookiza/docs" # the subpath of your site, e.g. /blog
+
+url: "https://bubblin.io" # the base hostname & protocol for your site, e.g. http://example.com
+
+logo: 'assets/logo.svg'
+favicon: 'assets/favicon.ico'
+
+facebook_page: bubblinsuperbooks
+twitter_username: bookiza
+github_username:  bookiza
+
+# Build settings
+markdown: kramdown
+theme: doccoli-jekyll
+plugins:
+  - jekyll-feed
+
+permalink: :title
+
+comments: true
+
+search: true
+
+disqus:
+    shortname: bubblin
+
+google_analytics: UA-107952514-1
+
+include: ['_pages']
+
+collections:
+  pages:
+    output: true
+    permalink: /:path
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
