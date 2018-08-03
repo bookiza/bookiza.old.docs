@@ -30,6 +30,8 @@ disqus:
 
 google_analytics: UA-107952514-1
 
+heap_analytics: '1977755630'
+
 include: ['_pages']
 
 collections:
