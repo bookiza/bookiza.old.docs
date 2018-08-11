@@ -7,7 +7,10 @@ categories: jekyll update
 
 Welcome to [Bookiza's](http://bookiza.io) official documentation. Bookiza is a *book reification tool* for the web. 
 
-This site is also available as a [superbook](https://bubbl.in/cover/bookiza-framework-by-marvin-danig) if you prefer to read on a tablet.
+This site is also available as a [superbook](https://bubbl.in/cover/bookiza-framework-by-marvin-danig) (UPDATED!) if you prefer to read on a tablet. 
+
+
+Literature provided below is OUTDATED as of August 10th, 2018. This project is in a great state of flux, the site will be updated in a few days. 
 
 ```html
 <!-- Paste at { ~/project/templates/body.html } -->
