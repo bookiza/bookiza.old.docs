@@ -21,12 +21,12 @@ plugins:
 
 permalink: :title
 
-comments: true
+# comments: true
 
 search: true
 
-disqus:
-    shortname: bubblin
+# disqus:
+#     shortname: bubblin
 
 google_analytics: UA-107952514-1
 
