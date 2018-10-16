@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Setup"
+title:  "Requirements"
 date:   2018-07-26 17:16:51 -0400
 categories: bookiza installation system requirements
 ---
