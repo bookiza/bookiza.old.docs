@@ -1,4 +1,14 @@
-# Afterthoughts
+---
+layout: post
+title:  "Thoughts"
+date:   2018-07-26 17:16:51 -0400
+categories: bookiza templates new project
+---
+
+# Forethought
+
+
+# Afterthought
 
 With mobile becoming a dominant way for people to consume web, Bookiza brings only the most natural form of book reading experience on web. We have been flipping over pages for over a millenium!
 
