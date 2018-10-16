@@ -5,6 +5,8 @@ date:   2018-07-26 17:16:51 -0400
 categories: bookiza manuscript project
 ---
 
+Managing your manuscript
+
 ```
 $ bookiza new MY-AWESOME-BOOK -l 12 -t comics   # Creates project with 12 fresh leafs (24 pages) inside `manuscript/`.
 $ cd MY-AWESOME-BOOK

@@ -1,11 +1,13 @@
 ---
 layout: post
 title:  "Templates"
-date:   2018-07-26 17:16:51 -0400
+date:   2018-08-1 9:16:50 -0000
 categories: bookiza templates new project
 ---
 
-Bookiza comes along with several ready-to-use responsive and [FREE templates](https://github.com/bookiza/templates) so that you don't have to worry about layout or page design. Though it's always a good idea to understand how templates work under the hood.
+Dive into ready-to-use, responsive and [FREE templates](https://github.com/bookiza/templates) so that you don't have to worry about layout yourself. 
+
+It's always a good idea to understand how templates work under the hood though.
 
 Pass the `templateName` option to `bookiza new` command (see above) to apply a layout you want. 
 

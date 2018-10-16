@@ -5,12 +5,12 @@ date:   2018-07-26 17:16:51 -0400
 categories: bookiza templates new project
 ---
 
-Customize bookiza according to your taste, make your book stand apart. Bookiza comes in multiple flavors: HAML, PUG, markdown, SASS, LESS, Stylus etc. 
+Bookiza comes in multiple flavors: Use HAML, PUG, markdown, SASS, LESS, Stylus or simply HTML as it is according to your preference. 
 
-There are two ways to configure bookiza for your book:
+There are two ways to configure Bookiza:
 
-- Globally, using `.bookizarc`
-- Locally, per project, using `.bookrc`
+- Globally, using `.bookizarc` or
+- Locally, per project, using the `.bookrc` object.
 
 For example, this [sample book](https://github.com/marvindanig/bookiza-framework) uses `.haml` and `.scss` instead of plain html and css.
 

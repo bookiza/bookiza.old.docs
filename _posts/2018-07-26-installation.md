@@ -1,13 +1,17 @@
 ---
 layout: post
 title:  "Installation"
-date:   2018-07-26 17:16:51 -0400
+date:   2018-08-1 10:15:00 -0000
 categories: bookiza installation steps
 ---
 
+Bookiza is super easy to install. Please ensure that the following dependencies are met before proceeding to install Bookiza.
+
 ### Install Nodejs
 
-Recommended Node v6.2.0 or above. 
+You'll need the following:
+
+node (>=8.11.3), gulp, shelljs, git-scm and a unixy-style shell or the terminal app.
 
 It is recommended to install the latest stable (It's FREE!) version of node (v6.2.0 as of writing this) directly from the [Nodes.js® website](https://nodejs.org/en/download/). 
 
