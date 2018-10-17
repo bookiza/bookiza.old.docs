@@ -133,5 +133,5 @@ You'll need to install `bookiza` and `gulp` globally. Once the installation has 
 ##### Dependencies
 async, superagent, progress, co-prompt, co, path, fs, chalk, commander, string, dateformat, shelljs, os-homedir
 
-<aside class="warning"> The <a href="https://github.com/bookiza/bookiza/blob/master/bash/.bookiza">bookiza bash plugin </a> is now deprecated. 
-</aside>
+> The <a href="https://github.com/bookiza/bookiza/blob/master/bash/.bookiza">bookiza bash plugin </a> is now deprecated. 
+
