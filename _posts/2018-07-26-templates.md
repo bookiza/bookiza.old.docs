@@ -9,7 +9,7 @@ Dive into ready-to-use, responsive and [FREE templates](https://github.com/booki
 
 It's always a good idea to understand how templates work under the hood though.
 
-Pass the `templateName` option to `bookiza new` command (see above) to apply a layout you want. 
+`templateName` option can be passed to `bookiza new` command to apply a layout you want. 
 
 Current `templateName` options are:
 

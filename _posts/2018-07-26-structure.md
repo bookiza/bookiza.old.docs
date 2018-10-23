@@ -6,7 +6,7 @@ categories: bookiza superbook pages leafs
 ---
 Quick look into project structure here. 
 
-Superbooks have pages that flip horizontally. 
+As the author or maker, most of your time writing the book will happen inside `manuscript` folder.
 
 ## Layout
 

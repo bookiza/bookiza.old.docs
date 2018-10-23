@@ -5,7 +5,9 @@ date:   2018-07-26 17:16:51 -0400
 categories: bookiza templates new project
 ---
 
-Bookiza comes in multiple flavors: Use HAML, PUG, markdown, SASS, LESS, Stylus or simply HTML as it is according to your preference. 
+Bookiza comes in multiple flavors. Choose any combination you want!
+
+Use HAML, PUG, markdown, SASS, LESS, Stylus or simply HTML, CSS and JavaScript on pages of your book. 
 
 There are two ways to configure Bookiza:
 

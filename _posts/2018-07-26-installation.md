@@ -5,7 +5,7 @@ date:   2018-08-1 10:15:00 -0000
 categories: bookiza installation steps
 ---
 
-Bookiza is super easy to install. Please ensure that the following dependencies are met before proceeding to install Bookiza.
+Bookiza is super easy to install. Ensure that the following dependencies are met before proceeding to install Bookiza.
 
 ### Install Nodejs
 
