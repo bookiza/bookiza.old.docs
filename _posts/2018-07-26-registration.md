@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Registration"
-date:   2018-08-1 9:30:00 -0000
+date:   2018-10-30 9:30:00 -0000
 categories: bookiza new client registration
 ---
 

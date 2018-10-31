@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Requirements"
-date:   2018-08-1 10:16:50 -0000
+date:   2018-10-30 10:16:50 -0000
 categories: bookiza system requirements specs
 ---
 

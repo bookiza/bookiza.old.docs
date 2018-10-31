@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Introduction"
-date:   2018-08-1 17:16:50 -0000
+date:   2018-10-30 17:16:50 -0000
 categories: bookiza introduction documentation abelone
 ---
 

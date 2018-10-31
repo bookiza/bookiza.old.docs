@@ -1,15 +1,15 @@
 ---
 layout: post
 title:  "Preprocessors"
-date:   2018-07-26 17:16:51 -0400
+date:   2018-10-29 17:16:51 -0400
 categories: bookiza templates new project
 ---
 
 Bookiza supports multiple flavors. 
 
-Write your book using MarkDown, HAML (recommend), PUG, SASS, LESS, STYLUS or just plain HTML, CSS and JavaScript. You can choose different combinations for different books, and vary preprocessing pipeline at page-level. 
+Write your book using **markdown**, HAML (recommended), Pug, Sass, Less, Stylus or simply plain HTML, CSS and JavaScript. You can choose different combinations for different books and also vary the preprocessing pipeline at component or page-level. 
 
-### Configuring Preprocessors:
+## Configuring Preprocessors:
 
 There are two ways to choose preprocessing (or none) for your Superbooks:
 
@@ -17,7 +17,12 @@ There are two ways to choose preprocessing (or none) for your Superbooks:
 2. Locally, per Superbook, using the `.bookrc` `mode` object.
 
 
-## Adopting preprocessors using .bookrc mode.
+### Using the .bookrc mode.
+
+Default configuration of Bookiza is set on building blocks of web i.e. plain HTML, CSS and JavaScript. This can be changed on your Superbook by altering the `mode` property on `.bookrc` file at the root of your project. Note, the output i.e. build off Bookiza is always going to be HTML, CSS and JavaScript no matter what preprocessor setting, logic or transformation you may have applied via the `.bookrc` or ArcBookiza. 
+
+
+Here is a sample mode object `.bookrc` on our Superbook for [Bookiza Documentation](https://github.com/marvindanig/bookiza-framework) that uses `haml` and `scss` instead of plain html and css.
 
 ```json
 {
@@ -34,8 +39,7 @@ There are two ways to choose preprocessing (or none) for your Superbooks:
 ```
 
 
-For example, this [sample book](https://github.com/marvindanig/bookiza-framework) uses `.haml` and `.scss` instead of plain html and css.
 
-Configuring bookiza will set its `generators` and `renderers` to use the appropriate templating engine (or preprocessor) for its pages (and templates). You can also use a combination of preprocessors within the same book with a more complicated setup (discussed elsewhere). 
 
-By default Bookiza is configured for the native web i.e. plain HTML, CSS and JavaScript. The output of the build is always HTML, CSS and JavaScript as well no matter what preprocessor logic or transformations are applied beforehand. 
+Configuring bookiza will set its `generators` and `renderers` to use the appropriate templating engine (or preprocessor) for its pages *and* templates. 
+

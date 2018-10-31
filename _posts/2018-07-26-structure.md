@@ -1,16 +1,16 @@
 ---
 layout: post
 title:  "Structure"
-date:   2018-07-26 17:16:51 -0400
+date:   2018-10-30 00:16:50 -0000
 categories: bookiza superbook pages leafs
 ---
 Quick look into project structure here. 
 
-Let's create a fresh barebones project `test`, something like this:
+Let's create a fresh barebones project `happy`, something like this:
 
 ```
 
-$ bookiza new test -l 4 -t comics
+$ bookiza new happy -l 4 -t comics
 
 Initializing…  [ manuscript=abba | leafs=4 | template=comics ]
 License.txt… :added.

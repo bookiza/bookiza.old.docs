@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Manuscript"
-date:   2018-07-26 17:16:51 -0400
+date:   2018-10-29 17:16:51 -0400
 categories: bookiza manuscript project
 ---
 

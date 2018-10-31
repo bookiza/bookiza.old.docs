@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Installation"
-date:   2018-08-1 10:15:00 -0000
+date:   2018-10-30 10:15:00 -0000
 categories: bookiza installation steps
 ---
 

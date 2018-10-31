@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Templates"
-date:   2018-08-1 9:16:50 -0000
+date:   2018-10-30 00:10:50 -0000
 categories: bookiza templates new project
 ---
 Choose a layout for your book with an easy-to-use layout [template](https://github.com/bookiza/templates). 
