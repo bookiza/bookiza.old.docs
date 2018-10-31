@@ -56,16 +56,21 @@ See how to use [preprocessors]({{ site.baseurl }}{% link _posts/2018-07-26-prepr
 
 
 ## Layout
-The `templates` folder is where all the layout and structure level markup and scripts live. Values placed inside templates get applied across all the pages of a book, so this is an ideal place to choose web fonts and typography of your book.
+The `templates` folder is where all the layout and structure level markup and scripts live. Code and style rules placed inside `templates` folder get applied across all the pages of a book, so this is an ideal place to choose web-fonts and typography on your book.
 
 Learn more about [strong layout](https://bubblin.io/docs/layouts) templates.
 
 ## Assets
 
-Using 
+Assets folder is where all your static assets like images, illustrations or libraries of the book (or comics or magazine) will go. As a convention the `assets` folder will not hold the Cover and Banner art of your book though. 
+
+All resources need to be checked-in and hot-linked via `rawgit` or an asset hosting provider like [Cloudinary](https://cloudinary.com/invites/lpov9zyyucivvxsnalc5/ol3vwq9ouquwqhg5etjd) (recommended referral link). Using a Content Delivery Network (CDN) to deliver images at right resolution and size dynamically helps your readers get to reading the book faster, especially on high latency networks.
 
 
 ## Cover
 
-## CDN resources
+The cover-art (450px x 610px) for your book and its banner (1400px x 800px) will go into the `Cover` folder. These images are uploaded via the Cover page of your Superbook on Bubblin.
+
+
+
 

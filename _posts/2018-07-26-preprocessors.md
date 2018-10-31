@@ -5,14 +5,34 @@ date:   2018-07-26 17:16:51 -0400
 categories: bookiza templates new project
 ---
 
-Bookiza comes in multiple flavors. Choose any combination you want!
+Bookiza supports multiple flavors. 
 
-Use HAML, PUG, markdown, SASS, LESS, Stylus or simply HTML, CSS and JavaScript on pages of your book. 
+Write your book using MarkDown, HAML (recommend), PUG, SASS, LESS, STYLUS or just plain HTML, CSS and JavaScript. You can choose different combinations for different books, and vary preprocessing pipeline at page-level. 
 
-There are two ways to configure Bookiza:
+### Configuring Preprocessors:
 
-- Globally, using `.bookizarc` or
-- Locally, per project, using the `.bookrc` object.
+There are two ways to choose preprocessing (or none) for your Superbooks:
+
+1. Globally, using ArcBookiza `mode` i.e. property on `.bookizarc` object called `mode`, or
+2. Locally, per Superbook, using the `.bookrc` `mode` object.
+
+
+## Adopting preprocessors using .bookrc mode.
+
+```json
+{
+  "mode": {
+    "HTML": "haml",
+    "CSS": "scss",
+    "JS": "js",
+    "HEAD": "html"
+  },
+  "name": "Bookiza Documentation",
+  "type": "text",
+  "book_id": 167
+}
+```
+
 
 For example, this [sample book](https://github.com/marvindanig/bookiza-framework) uses `.haml` and `.scss` instead of plain html and css.
 
