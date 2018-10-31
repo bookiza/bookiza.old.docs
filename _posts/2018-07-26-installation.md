@@ -5,33 +5,43 @@ date:   2018-08-1 10:15:00 -0000
 categories: bookiza installation steps
 ---
 
-Bookiza is super easy to install. Ensure that the following dependencies are met before proceeding to install Bookiza.
+Bookiza is super easy to install. 
+
+The following dependencies must be installed before proceeding to install Bookiza.
+
+> node (>=8.11.3), gulp, shelljs, git-scm and a unixy-style shell or the terminal app.
+
 
 ### Install Nodejs
 
-You'll need the following:
-
-node (>=8.11.3), gulp, shelljs, git-scm and a unixy-style shell or the terminal app.
-
-It is recommended to install the latest stable (It's FREE!) version of node (v6.2.0 as of writing this) directly from the [Nodes.js® website](https://nodejs.org/en/download/). 
+It is recommended to install the latest stable (it's free!) version of node (v8.11.3 or higher as of writing this) directly from the [Nodes.js® website](https://nodejs.org/en/download/). 
 
 
 #### Mac/ El Capitan
 
-```
+On Mac it is generally recommended to install use [homebrew](http://brew.sh/) to install node. Also works with Linux/Ubuntu. 
+
+
+```bash
 $ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 $ brew update
 $ brew doctor
 
+```
+
+Once your system is ready to brew, install node:
+```bash
 $ brew install node 
 ```
-> Once node is installed check with $ node -v
+When node installation is over, check: 
 
-On Mac it is generally recommended to install nodejs with [Homebrew](http://brew.sh/) (Instructions on right). 
+```bash
+$ node -v
+v10.6.0
 
-Once your system is ready to brew, install node with
+```
 
-`$ brew install node`
+Next, we'll install `git`.
 
 
 #### Windows
@@ -40,9 +50,9 @@ Download the Windows installer and run the installer (the .msi file) in the prev
 Restart your computer.
 
 #### Linux
-Use package control to grab the appropriate [node installer](https://nodejs.org/en/download/package-manager/) for your distribution of linux.
+Use package control to grab the appropriate [node installer](https://nodejs.org/en/download/package-manager/) for your distro. You can use `homebrew` to install node on a linux machine.
 
-Once node is installed on your machine check its version with:
+Once node is installed always check its version with:
 
 `$ node -v`
 
@@ -51,19 +61,22 @@ Once node is installed on your machine check its version with:
 
 ### Install GIT
 
+Bookiza uses the [git-scm](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) internally to hook up your project (manuscript) to a repository. While this step is not mandatory, it is highly recommended to commit and track changes to your manuscript over time and check-in the progress into a repository on sites like [Github](https://github.com) or [Bitbucket](https://bitbucket.org) to back it up. 
+
+You can use any other version control software if you like. 
+
+#### Mac / El Capitan
+
+If you are using Mac, you may already have Git. To find out, open a terminal and enter `git --version`. If it's not there already, install with `brew install git`.
+
+Or you can [download](http://git-scm.com/downloads) the installer, double-click the `.dmg` and complete its installation. After installation is complete, configure git `global user.name` and `global user.email` on your machine as shown below:
+
+
 ```
 $ git --version
 $ git version 2.10.1
 ```
 
-```
-$ brew install git      # Mac
-
-$ sudo apt-get install git  # Ubuntu/Debian 
-
-$ sudo yum install git-all  # Fedora
-
-```
 
 > Configure git after installation with:
 
@@ -75,29 +88,35 @@ $ git config --global user.email "your@email.com"
 ```
 
 
-
-Internally Bookiza utilizes [git-scm](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) to hook up your manuscript to a repository. While this is not mandatory, it is highly recommended to check-in your manuscript into a repository like [Github](https://github.com) or [Bitbucket](https://bitbucket.org) and back it up. You can use any other version control software if you like. 
-
-#### Mac / El Capitan
-
-If you are using Mac, you may already have Git. To find out, open a terminal and enter `git --version`. If it's not there already install with `brew install git`.
-
-Or you can [download](http://git-scm.com/downloads) the installer, double-click the dmg and complete its installation. After installation is completed configure Git `global user.name` and `global user.email` as shown on the right.
-
-
 #### Windows
 
 Download the [Windows Installer Package](http://git-scm.com/download/win) for Git.
 
 Run the installer on your computer to open Git Setup wizard and follow through all the steps to complete the installation. Once the installation has completed, open `Bash.vbs` inside the Git folder / Programs directory to open the command window.
 
-Configure your Git `global user.name` and Git `global user.email` as shown on the right.
+Configure your Git `global user.name` and Git `global user.email` as shown above.
 
 #### Linux / Ubuntu
 
-On Ubuntu use the apt package management system or the command line utility `apt-get` (or optionally the graphical user interfaces like Synaptic or Aptitude) to install Git. 
+On Ubuntu use the apt package manager or the command line utility `apt-get` (or optionally the GUI like Synaptic or Aptitude) to install Git. 
+You can also install `git` via the terminal with one of the following commands depending on your distro:
 
-Upon completing installation make sure to configure Git `global user.name` and `global user.email` as shown alongside.
+```bash
+$ brew install git          # Works on Mac & Linux both.
+```
+Or,
+
+```bash
+$ sudo apt-get install git  # Ubuntu/Debian 
+```
+Or, 
+
+```bash
+$ sudo yum install git-all  # Fedora
+
+```
+
+Upon completion of installation make sure to configure Git `global user.name` and `global user.email` as shown above.
 
 ---
 

@@ -5,20 +5,26 @@ date:   2018-08-1 10:16:50 -0000
 categories: bookiza system requirements specs
 ---
 
-You'll require a desktop with at least the following configuration:
-
-### Operating Systems: 
-
-Bookiza works on a machine with any operating system. The only requirement is to have access to shell environment or the terminal application.
-
-- MacOS 
-- Linux
-- Windows 
-
-Users on Windows will also need to install a unixy-style shell interface like [Powershell](https://technet.microsoft.com/en-us/library/hh847837.aspx), [Babun](http://babun.github.io/), [Cmnder](https://github.com/cmderdev/cmder) or [Cygwin](https://www.cygwin.com/). Mac & linux have what is called the `terminal` app or the bash or the shell. 
+Bookiza@v1.0.0+pre-release candidates require desktop with the following minimum configuration:
 
 ### Memory 
-Minimum 2G RAM 
+Minimum 2Gb RAM but 4Gb or higher is recommended.
 
 ### Browser
-Google Chrome, Mozilla Firefox, Apple Safari or MS Edge. Having older versions of IE alongside is also recommended for *testing*.
+Latest Google Chrome or Mozilla Firefox or Brave or Apple Safari. Having older versions of IE alongside is recommended for *testing*.
+
+### Operating System
+
+Any. Bookiza is compatible with the following operating systems:
+
+- MacOS Mojave, Sierra, High Sierra etc.
+- Linux (Ubuntu / FreeBSD and other distributions)
+- Windows 10
+
+
+### Terminal
+
+Access to shell environment or the terminal application.
+
+Users on Windows may need to install a unixy-style shell interface like [Powershell](https://technet.microsoft.com/en-us/library/hh847837.aspx), [Babun](http://babun.github.io/), [Cmnder](https://github.com/cmderdev/cmder) or [Cygwin](https://www.cygwin.com/). Mac & linux have what is called the `terminal` app or the bash or the shell. 
+
