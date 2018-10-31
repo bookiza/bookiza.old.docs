@@ -41,8 +41,6 @@ v10.6.0
 
 ```
 
-Next, we'll install `git`.
-
 
 #### Windows
 Download the Windows installer and run the installer (the .msi file) in the previous step. Follow the prompts in the installer, accept the license agreement, click the NEXT button to accept the default installation settings. 
@@ -56,10 +54,14 @@ Once node is installed always check its version with:
 
 `$ node -v`
 
+
+Next, we'll install `git`.
+
+
 ---
 
 
-### Install GIT
+### GIT-SCM
 
 Bookiza uses the [git-scm](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) internally to hook up your project (manuscript) to a repository. While this step is not mandatory, it is highly recommended to commit and track changes to your manuscript over time and check-in the progress into a repository on sites like [Github](https://github.com) or [Bitbucket](https://bitbucket.org) to back it up. 
 
@@ -86,6 +88,7 @@ $ git config --global user.name "Your Full Name"
 $ git config --global user.email "your@email.com"
 
 ```
+
 
 
 #### Windows
@@ -123,34 +126,25 @@ Upon completion of installation make sure to configure Git `global user.name` an
 
 ### Install Bookiza
 
-```
-$ npm install bookiza -g
-
-$ bookiza -v
-
-1.0.1
-
-$ bookiza --help        // See help/options/documentation
+You'll need to install `bookiza` and `gulp` globally. Once the installation is complete, check with `$ bookiza --version`.
 
 ```
+$ npm install bookiza@1.0.0-beta.4 -g      // Or $ npm i bookiza@latest -g
 
-On your terminal run:
+$ bookiza --version
+1.0.0-beta.4
 
-`$ npm install bookiza -g`
+$ bookiza --help        // Glossary
 
-You'll need to install `bookiza` and `gulp` globally. Once the installation has completed, check with `$ bookiza --version`.
+```
 
-<aside class="notice"> 
-  <span>
-    If for some reason cannot upgrade to node v6.2.0 (or above) you might want to try bookiza as-is first with a slightly older version of node. If it doesn't work then try using the `\--harmony` flag in the shebangs of the executable <a href="https://github.com/bookiza/bookiza/blob/master/bin/bin.js">bin</a>. 
-  </span>
 
-  <p> 
-    <br/> Read more about this <a href="http://stackoverflow.com/questions/28756759/how-to-start-global-npm-module-with-harmony-flag"> issue</a> on Stackoverflow. </p>
-</aside>
+
+> If for some reason you're unable to upgrade node binaries (for example, on v6.2.0 or below) you might want to try installing bookiza as-is first and if it doesn't work then use the `\--harmony` flag in the shebangs of the executable <a href="https://github.com/bookiza/bookiza/blob/master/bin/bin.js">bin</a>. 
+> Read more about this <a href="http://stackoverflow.com/questions/28756759/how-to-start-global-npm-module-with-harmony-flag"> issue</a> on Stackoverflow. 
 
 ##### Dependencies
 async, superagent, progress, co-prompt, co, path, fs, chalk, commander, string, dateformat, shelljs, os-homedir
 
-> The <a href="https://github.com/bookiza/bookiza/blob/master/bash/.bookiza">bookiza bash plugin </a> is now deprecated. 
+> The <a href="https://github.com/bookiza/bookiza/blob/master/bash/.bookiza">bash plugin </a> of Bookiza has been deprecated. 
 
