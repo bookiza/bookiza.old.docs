@@ -49,20 +49,23 @@ cover             manuscript        templates           .git
 ## Manuscript
 As an author or maker, most of your time creating the book will be spent inside the `manuscript` folder. Here you'll see a directory for each page of the book with a number appended to its foldername, like so: `page-1`, `page-2`, `page-3`… and so on until page-2N. 
 
-Inside each page directory, you'll find a file called `body.html` and `style.css`. Additionally, you can also add a `scripts.js` and `head.html` file inside each page if you need to apply additional components on your page. Bookiza will process and combine all the [components of a page](https://bubblin.io/docs/structure.html) and render it on your book.   
+Inside each page directory, you'll find a file called `body.html` and `style.css`. Additionally, you can also add a `scripts.js` and `head.html` file inside each page if you need to apply additional components or page specific style on a given page. Bookiza will process and combine all the [components of a page](https://bubblin.io/docs/structure.html) and render it on your book.   
 
 See how to use [preprocessors]({{ site.baseurl }}{% link _posts/2018-07-26-preprocessors.md %}) instead of plain markup and style by altering Bookiza's mode.
 
 
 
 ## Layout
+The `templates` folder is where all the layout and structure level markup and scripts live. Values placed inside templates get applied across all the pages of a book, so this is an ideal place to choose web fonts and typography of your book.
+
+Learn more about [strong layout](https://bubblin.io/docs/layouts) templates.
+
+## Assets
+
+Using 
 
 
-
-## 
-
-Using web fonts and typography from the web in your book.
-
+## Cover
 
 ## CDN resources
 
