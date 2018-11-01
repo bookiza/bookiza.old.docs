@@ -5,9 +5,9 @@ date:   2018-10-29 17:16:51 -0400
 categories: bookiza templates new project
 ---
 
-Bookiza supports multiple flavors. 
+Bookiza comes in multiple flavors. 
 
-Write your book using **markdown**, HAML (recommended), Pug, Sass, Less, Stylus or simply plain HTML, CSS and JavaScript. You can choose different combinations for different books and also vary the preprocessing pipeline at component or page-level. 
+Write your book using Markdown, Haml (recommended), Pug, Sass, Less, Stylus or simply plain HTML, CSS and JavaScript. You can choose different combinations for different books and also vary the preprocessing pipeline at component or page-level. 
 
 ## Configuring Preprocessors:
 
