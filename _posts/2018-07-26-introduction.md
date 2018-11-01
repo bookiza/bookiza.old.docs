@@ -5,10 +5,10 @@ date:   2018-10-30 17:16:50 -0000
 categories: bookiza introduction documentation abelone
 ---
 
-Welcome to official documentation on [Bookiza Abelone](https://bookiza.io)—the *book reification tool* for web. 
+Welcome to official documentation on [Bookiza Abelone](https://bookiza.io)—the *book reification tool* for web. Please [star us](https://github.com/bookiza/bookiza.cli) on Github!
 
 
-<img src="https://raw.githubusercontent.com/bookiza/bookiza.cli/master/assets/images/bookiza.png" width="150px" />
+<a href="https://bookiza.io"><img src="https://raw.githubusercontent.com/bookiza/bookiza.cli/master/assets/images/bookiza.png" width="150px" /></a>
 
 
 This site is also available as a [Superbook](https://bubbl.in/cover/bookiza-framework-by-marvin-danig) if you prefer reading that way. It is important to note that Bookiza is currently in state of great flux and many of the features and options described here are expected to change or be removed completely. Copious amounts of patience is advised.
