@@ -4,14 +4,23 @@ title:  "Structure"
 date:   2018-10-30 00:16:50 -0000
 categories: bookiza superbook pages leafs
 ---
-Quick look into project structure here. 
+Let's create a fresh barebones book project called `happy`, like so:
 
-Let's create a fresh barebones project `happy`, something like this:
 
 ```
+$ bookiza new happy --leafs 4 --template comics
+```
 
-$ bookiza new happy -l 4 -t comics
+Or in shortform: 
 
+```
+$ b n happy -l 4 -t comics
+```
+
+Bookiza will bootstrap your project ground up as shown below:
+
+
+```
 Initializing…  [ manuscript=abba | leafs=4 | template=comics ]
 License.txt… :added.
 .gitignoring /build /node_modules… :done.
@@ -28,12 +37,11 @@ Generating [ 8 ] blank page(s)… : done.
 
 Installed npm modules… :successfully.
 
-Publish new repo as marvindanig/test? (Y/n)
-
-// skip
+Publish new repo as marvindanig/test? (Y/n) // n to skip.
 
 ```
 
+The project has the following structure:
 
 ```
 
