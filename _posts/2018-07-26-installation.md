@@ -129,10 +129,10 @@ Upon completion of installation make sure to configure Git `global user.name` an
 You'll need to install `bookiza` and `gulp` globally. Once the installation is complete, check with `$ bookiza --version`.
 
 ```
-$ npm install bookiza@1.0.0-beta.4 -g      // Or $ npm i bookiza@latest -g
+$ npm install -g bookiza@1.0.0-beta.10      // Or $ npm i bookiza@latest -g
 
 $ bookiza --version
-1.0.0-beta.4
+1.0.0-beta.10
 
 $ bookiza --help        // Glossary
 
@@ -140,7 +140,7 @@ $ bookiza --help        // Glossary
 
 
 
-> If for some reason you're unable to upgrade node binaries (for example, on v6.2.0 or below) you might want to try installing bookiza as-is first and if it doesn't work then use the `\--harmony` flag in the shebangs of the executable <a href="https://github.com/bookiza/bookiza/blob/master/bin/bin.js">bin</a>. 
+> If for some reason you're unable to upgrade node binaries (for example, on v6.2.0 or below) you might want to try re-installing bookiza as-is first and if it doesn't work still then use the `\--harmony` flag in the shebangs of the executable <a href="https://github.com/bookiza/bookiza/blob/master/bin/bin.js">bin</a>. 
 > Read more about this <a href="http://stackoverflow.com/questions/28756759/how-to-start-global-npm-module-with-harmony-flag"> issue</a> on Stackoverflow. 
 
 ##### Dependencies
