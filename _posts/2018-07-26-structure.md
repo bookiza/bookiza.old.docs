@@ -4,17 +4,17 @@ title:  "Structure"
 date:   2018-10-30 00:16:50 -0000
 categories: bookiza superbook pages leafs
 ---
-Let's create a fresh barebones book project called `happy`, like so:
+Let's create a fresh barebones book project called `happy-feet`, like so:
 
 
 ```
-$ bookiza new happy --leafs 4 --template comics
+$ bookiza new happy-feet --leafs 4 --template comics
 ```
 
 Or in shortform: 
 
 ```
-$ b n happy -l 4 -t comics
+$ b n happy-feet -l 4 -t comics
 ```
 
 Bookiza will bootstrap your project ground up as shown below:
@@ -37,7 +37,7 @@ Generating [ 8 ] blank page(s)… : done.
 
 Installed npm modules… :successfully.
 
-Publish new repo as marvindanig/test? (Y/n) // n to skip.
+Publish new repo as marvindanig/happy-feet? (Y/n) // n to skip.
 
 ```
 
@@ -45,7 +45,7 @@ The project has the following structure:
 
 ```
 
-$ cd test && ls -ltra
+$ cd happy-feet && ls -ltra
 
 README.md         crust             node_modules        trash
 assets            gulpfile.js       package-lock.json   .bookrc
