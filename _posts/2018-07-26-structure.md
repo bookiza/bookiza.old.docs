@@ -41,7 +41,7 @@ Publish new repo as marvindanig/happy-feet? (Y/n) // n to skip.
 
 ```
 
-The project has the following structure:
+The project has the following directory structure:
 
 ```
 
@@ -55,9 +55,9 @@ cover             manuscript        templates           .git
 ```
 
 ## Manuscript
-As an author or the book maker, most of your time creating will be spent inside the `manuscript` folder. Here you'll see a directory for each page of the book with a number appended to its foldername, like so: `page-1`, `page-2`, `page-3`… and so on until page-2N. 
+Now, as an author of the book or its maker, most of your time developing the story will be spent inside the `manuscript` folder. In this directory you'll see a subfolder for each page of the book with a number appended to its foldername, like so: `page-1`, `page-2`, `page-3`… and so on until page-2N. 
 
-Then, inside each page directory, you'll find files named `body.html` and `style.css` that go into composing the given page. Additionally, you can also sprinkle some javascript on page using a `scripts.js` file and head resources using a `head.html` file if at all that is necessary. Bookiza will pick-up,  combine and generate the page using the [components](https://bubblin.io/docs/structure.html) specified and render it on your book.   
+Inside each page subdirectory, you'll find files like `body.html` and `style.css` that go into composing a given page on the book. You can sprinkle some javascript on the page using a `scripts.js` file and include a head resource using a `head.html` file if it is required. Bookiza will pick-up the contents of these files, combine them and generate a page using the specified [components](https://bubblin.io/docs/structure.html) on your book.   
 
 See how to use [preprocessors]({{ site.baseurl }}{% link _posts/2018-07-26-preprocessors.md %}) instead of plain markup and style by altering Bookiza's mode.
 

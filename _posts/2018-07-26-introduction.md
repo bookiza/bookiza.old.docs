@@ -5,9 +5,9 @@ date:   2018-10-30 17:16:50 -0000
 categories: bookiza introduction documentation abelone
 ---
 
-<a class="right" href="https://bookiza.io"><img src="https://raw.githubusercontent.com/marvindanig/assets/master/bookiza.png" width="150px" title="bookiza abelone" /></a>
-
 Welcome to official documentation of [Bookiza Abelone](https://bookiza.io)—the *book reification framework* for the web. 
+
+<a class="right" href="https://bookiza.io"><img src="https://raw.githubusercontent.com/marvindanig/assets/master/bookiza.png" width="150px" title="bookiza abelone" /></a>
 
 Do [star us](https://github.com/bookiza/bookiza.cli) on Github!
 

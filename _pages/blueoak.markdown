@@ -13,9 +13,9 @@ Version: 1.0.0
 Date: April 1, 2019
 ```
 
-## Rules & provisions
+## Rules & Provision
 
-- Book published under this license must be available to _all_ readers on web for no cost in perpetuity.
+- Books published under this license must be available to _all_ readers on the web for no cost in perpetuity.
 - No exceptions can be made to the aforementioned rule without explicit permission from the maintainers.
 
 ## Purpose
