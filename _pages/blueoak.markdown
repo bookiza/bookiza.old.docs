@@ -9,14 +9,15 @@ permalink: blueoak.html
 
 ```
 Name: Blue Oak Model License
-Version: 1.0.0
+Version: 1.0.1
 Date: April 1, 2019
 ```
 
 ## Rules & Provision
 
-- Books published under this license must be available to _all_ readers on the web for no cost in perpetuity.
+- Books published under this license must be available globally to _all_ readers on the web with no limitation or cost in perpetuity.
 - No exceptions can be made to the aforementioned rule without explicit permission from the maintainers.
+- This license is not available for use by corporations or proto-nations and their citizens. 
 
 ## Purpose
 

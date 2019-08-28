@@ -7,3 +7,4 @@ published: true
 permalink: mit.html
 ---
 
+This license has not been opened yet.
