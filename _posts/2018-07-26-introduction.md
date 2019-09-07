@@ -20,9 +20,9 @@ Wish to contribute to the project? Head over to our repositories on [Github](htt
 
 ### What is Bookiza?
 
-Bookiza is a *book reification framework* that cuts down your book writing and publishing time by half. By **half**, no less! Manage your manuscript smartly and bake in all the goodness of web inside your book. Using Bookiza is like app development, where the story is an actual book. We can call it 'book development' for the web, if you will. ✨
+Bookiza is a *book reification framework* that cuts down your book writing and publishing time by half. By **half**, no less! Manage your manuscript smartly and bake in all the goodness of web inside your book. Using Bookiza is like app development, where the story _is_ the app. You can call it 'book development' for the web, if you will. 😇
 
-Print delightful books on web for everyone and not just those who own a Kindle or an iPad. See [support](https://bubblin.io/support) information.
+Print delightful books on web for everyone and not just those who own a Kindle or an iPad. See [support](https://bubblin.io/support) information for broader picture.
 
 ### Who is it meant for?
 

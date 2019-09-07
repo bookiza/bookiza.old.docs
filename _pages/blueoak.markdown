@@ -15,7 +15,7 @@ Date: April 1, 2019
 
 ## Rules & Provision
 
-- Books published under this license must be available globally to _all_ readers on the web with no limitation or cost in perpetuity.
+- Books published under this license must be available globally to _all_ readers on the web with no limitations or cost in perpetuity.
 - No exceptions can be made to the aforementioned rule without explicit permission from the maintainers.
 - This license is not available for use by corporations or proto-nations and their citizens. 
 
