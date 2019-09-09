@@ -129,10 +129,9 @@ Upon completion of installation make sure to configure Git `global user.name` an
 You'll need to install `bookiza` and `gulp` globally. Once the installation is complete, check with `$ bookiza --version`.
 
 ```
-$ npm install -g bookiza@1.0.0-beta.10      // Or $ npm i bookiza@latest -g
+$ npm install -g bookiza      // Or $ npm i bookiza@latest -g
 
-$ bookiza --version
-1.0.0-beta.10
+$ bookiza --version    // Check version
 
 $ bookiza --help        // Glossary
 
